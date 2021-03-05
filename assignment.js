@@ -9,8 +9,8 @@ function feetToMile(feet) {
     return mile;
 }
 
-var result = feetToMile(50000);
-console.log("Your result is : " + result.toFixed(2));
+var result = feetToMile(150);
+console.log("Feet To Mile Result : " + result.toFixed(2));
 
 
 
@@ -24,7 +24,7 @@ function woodCalculator(chair, table, bedstead) {
     return totalCubic;
 }
 
-var result = woodCalculator(12, 12, 8);
+var result = woodCalculator(16, 20, 3);
 console.log("Cubic feet of wood require : " + result)
 
 
